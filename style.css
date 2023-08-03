@@ -1,0 +1,131 @@
+
+.items {
+    margin-left: 180px;
+}
+
+.items img {
+    height: 380px;
+}
+
+.biodata hr {
+    border: 0;
+    border-top: 3px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.description h6 span.content-1 {
+    margin-left: 50px;
+}
+.description h6 span.content-2 {
+    margin-left: 55px;
+}
+.description h6 span.content-3 {
+    margin-left: 37px;
+}
+.description h6 span.content-4 {
+    margin-left: 66px;
+}
+.description h6 span.content-5 {
+    margin-left: 40px;
+}
+.description h6 span.content-6 {
+    margin-left: 46px;
+}
+.description h6 span.content-7 {
+    margin-left: 35px;
+}
+
+.social-media span.ttk{
+    margin-left: 18px;
+}
+
+.social-media {
+    margin-left: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.last-text {
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.last-text i {
+    color: #e74c3c;
+}
+
+.point {
+    margin-left: 30px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.like-dislike {
+    color: rgba(60, 60, 60, 0.825);
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.like-dislike p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.like-icon, .dislike-icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+    cursor: pointer;
+    transition: transform 0.2s; 
+}
+
+.dislike-icon {
+    margin-left: 40px; /* Tambahkan jarak margin kiri sebesar 40px */
+}
+
+.liked, .disliked {
+    color: #e74c3c;
+    transform: scale(1.2);
+}
+
+.like-icon {
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-right: 5px; /* Tambahkan jarak margin kanan antara ikon dan teks */
+}
+
+.horizontal-line {
+    width: 10px;
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+
+.text-secondary {
+    margin: 0; /* Hapus margin bawaan pada elemen <p> */
+}
+
+footer h6 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer h6 i {
+    color: #e74c3c;
+    margin-left: 5px;
+}
