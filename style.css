@@ -129,3 +129,105 @@ footer h6 i {
     color: #e74c3c;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 1030px) {
+    .items {
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .items {
+        margin-left: 0px;
+    }
+
+    .items img {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .biodata hr {
+        border: 0;
+        border-top: 3px solid black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .items img {
+        height: 300px;
+    }
+
+    .items {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .items {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+    .items img {
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 463px) {
+    .items img {
+        height: 260px;
+    }
+
+    .biodata hr {
+        border: 0;
+        border-top: 3px solid black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
+
+@media screen and (max-width: 409px) {
+    .items img {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .items img {
+        height: 200px;
+    }
+
+    .items {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 282px) {
+    .items img {
+        height: 150px;
+    }
+
+    .items {
+        margin-left: 50px;
+    }
+}  
+
+@media screen and (max-width: 230px) {
+    .items img {
+        height: 140px;
+    }
+
+    .items {
+        margin-left: 30px;
+    }
+}  
